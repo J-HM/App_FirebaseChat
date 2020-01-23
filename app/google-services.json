@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "484262534026",
+    "firebase_url": "https://android-chat-practice.firebaseio.com",
+    "project_id": "android-chat-practice",
+    "storage_bucket": "android-chat-practice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484262534026:android:08111ec699746f45728673",
+        "android_client_info": {
+          "package_name": "com.jhm.android.firebasechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484262534026-gvdfpluregmnn0lg4r49st9oj009ta64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuxA3Zty1j7-NEwJ10TJLwVf7rQnf53CE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484262534026-gvdfpluregmnn0lg4r49st9oj009ta64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
