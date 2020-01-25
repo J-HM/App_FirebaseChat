@@ -1,11 +1,9 @@
 package com.jhm.android.firebasechat
 
-import android.text.format.DateUtils
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.google.firebase.Timestamp
 import kotlinx.android.synthetic.main.row_chat.view.*
 
 class ChatAdapter(private val chats: ArrayList<ChatData>, private val onclick: (Int) -> Unit) : RecyclerView.Adapter<ChatAdapter.ViewHolder>() {
@@ -32,10 +30,6 @@ class ChatAdapter(private val chats: ArrayList<ChatData>, private val onclick: (
             }
         }
         
-    }
-    
-    private fun getRelativeTime(creationTime: Timestamp): CharSequence? {
-        return DateUtils.getRelativeTimeSpanString(creationTime.seconds, Timestamp.now().seconds, 0L, DateUtils.FORMAT_ABBREV_ALL)
     }
     
 }
