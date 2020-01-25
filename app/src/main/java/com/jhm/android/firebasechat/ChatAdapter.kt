@@ -25,6 +25,7 @@ class ChatAdapter(private val chats: ArrayList<ChatData>, private val onclick: (
             
             text_chat_creationTime.text = TimeAgo.getTimeAgo(chats[position].creationTime)
             
+            
             setOnClickListener {
                 onclick(position)
             }
