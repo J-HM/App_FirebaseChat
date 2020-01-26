@@ -1,7 +1,6 @@
-package com.jhm.android.firebasechat
+package com.jhm.android.firebasechat.model
 
 import com.google.firebase.Timestamp
-
 
 object TimeAgo {
     private const val SECOND_MILLIS = 1000

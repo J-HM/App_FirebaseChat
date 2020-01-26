@@ -1,4 +1,4 @@
-package com.jhm.android.firebasechat
+package com.jhm.android.firebasechat.data
 
 import com.google.firebase.Timestamp
 
